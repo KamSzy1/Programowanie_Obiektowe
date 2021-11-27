@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="SwingApp">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="682" height="400"/>
+    </constraints>
+    <properties>
+      <minimumSize width="478" height="286"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="f9d9c" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="115"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="83949" class="javax.swing.JRadioButton" binding="Kwadrat">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="26" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Kwadrat"/>
+            </properties>
+          </component>
+          <component id="d716b" class="javax.swing.JRadioButton" binding="Trojkat">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="26" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Trójkąt"/>
+            </properties>
+          </component>
+          <component id="fd691" class="javax.swing.JRadioButton" binding="Trapez">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="26" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Trapez"/>
+            </properties>
+          </component>
+          <component id="e9b14" class="javax.swing.JLabel" binding="Wybierz">
+            <constraints>
+              <grid row="0" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Wybierz figurę"/>
+            </properties>
+          </component>
+          <component id="3f9dd" class="javax.swing.JRadioButton" binding="Prostokat">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="26" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value="Prostokąt"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="faf6c" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="115"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f1a8" class="javax.swing.JRadioButton" binding="Szescian">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Sześcian"/>
+            </properties>
+          </component>
+          <component id="f4eaa" class="javax.swing.JRadioButton" binding="Prostopadloscian">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Prostopadłościan"/>
+            </properties>
+          </component>
+          <component id="73547" class="javax.swing.JRadioButton" binding="Walec">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Walec"/>
+            </properties>
+          </component>
+          <component id="8901d" class="javax.swing.JRadioButton" binding="Kula">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Kula"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="200b8" class="javax.swing.JButton" binding="Wyczysc">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Wyczyść"/>
+        </properties>
+      </component>
+      <component id="a1317" class="javax.swing.JButton" binding="Oblicz">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="81" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Oblicz"/>
+        </properties>
+      </component>
+      <grid id="c86e3" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="60fa4" class="javax.swing.JLabel" binding="Pole">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="6ed82"/>
+              <text value="Pole"/>
+            </properties>
+          </component>
+          <component id="baddb" class="javax.swing.JLabel" binding="Obwod">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="40c9c"/>
+              <text value="Obwód"/>
+            </properties>
+          </component>
+          <component id="bb749" class="javax.swing.JLabel" binding="Objetosc">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="47" height="31"/>
+              </grid>
+            </constraints>
+            <properties>
+              <labelFor value="25892"/>
+              <text value="Objętość"/>
+            </properties>
+          </component>
+          <component id="25892" class="javax.swing.JTextField" binding="objetosc_t">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="40c9c" class="javax.swing.JTextField" binding="obwod_t">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="6ed82" class="javax.swing.JTextField" binding="pole_t">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d7805" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=" "/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5a3b7" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="239" height="139"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="97507" class="javax.swing.JLabel" binding="Bok_A">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="187fa"/>
+              <text value="Podaj bok a"/>
+            </properties>
+          </component>
+          <component id="5d7e5" class="javax.swing.JLabel" binding="Bok_B">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="1e3b4"/>
+              <text value="Podaj bok b"/>
+            </properties>
+          </component>
+          <component id="5502c" class="javax.swing.JLabel" binding="Promien">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="d03b7"/>
+              <text value="Podaj promień"/>
+            </properties>
+          </component>
+          <component id="49a0d" class="javax.swing.JTextField" binding="h_t">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="1e3b4" class="javax.swing.JTextField" binding="b_t">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="fffe7" class="javax.swing.JLabel" binding="Wysokosc">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <labelFor value="49a0d"/>
+              <text value="Podaj wysokość"/>
+            </properties>
+          </component>
+          <component id="187fa" class="javax.swing.JTextField" binding="a_t">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="d03b7" class="javax.swing.JTextField" binding="r_t">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="f2bbb" class="javax.swing.JLabel" binding="Bok_D">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Podaj bok d"/>
+            </properties>
+          </component>
+          <component id="7a7ea" class="javax.swing.JTextField" binding="d_t">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="Figura">
+      <member id="83949"/>
+      <member id="3f9dd"/>
+      <member id="d716b"/>
+      <member id="fd691"/>
+      <member id="f1a8"/>
+      <member id="f4eaa"/>
+      <member id="73547"/>
+      <member id="8901d"/>
+    </group>
+  </buttonGroups>
+</form>
